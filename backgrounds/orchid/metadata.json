@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "kramo"
+            }
+        ],
+        "Id": "Orchid",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Orchid"
+    }
+}

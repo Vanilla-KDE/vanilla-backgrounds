@@ -1,8 +1,10 @@
 <div align="center">
   
   # Vanilla Backgrounds
-  <sup2> A collection of light and dark backgrounds for Vanilla OS.</sup2>
+  <sup2> A KDE wallpaper pack with light and dark backgrounds for Vanilla OS.</sup2>
   </div>
+
+This project installs as a Plasma wallpaper pack under `share/wallpapers/vanilla`, with the wallpaper metadata in `metadata.desktop` and the images in `contents/images`.
 
 | Title | Light | Dark |
 | ----- | ----- | ---- |

@@ -2,10 +2,16 @@ project('vanilla-backgrounds',
   meson_version: '>= 0.50.0'
 )
 
-prefix = get_option('prefix')
+wallpapers = [
+  'fairy-tale',
+  'impellent',
+  'orchid',
+  'petals',
+  'petals-soft',
+  'soft-neon',
+  'vanilla',
+]
 
-datadir = join_paths(prefix, get_option('datadir'))
-backgrounddir = join_paths(datadir, 'backgrounds', 'vanilla')
-metadatadir = join_paths(datadir, 'gnome-background-properties')
-
-subdir('backgrounds')
+foreach wp : wallpapers
+  install_subdir('backgrounds' / wp, install_dir: get_option('datadir') / 'wallpapers')
+endforeach

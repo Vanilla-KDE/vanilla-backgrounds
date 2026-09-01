@@ -27,7 +27,7 @@ jobs:
       run: |
         export DEBIAN_FRONTEND=noninteractive
         apt update
-        apt install -y build-essential debhelper-compat dh-sequence-gnome libglib2.0-dev meson
+        apt install -y build-essential debhelper-compat meson
 
     - name: Build debian package
       run: |
