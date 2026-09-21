@@ -3,13 +3,13 @@ project('vanilla-backgrounds',
 )
 
 wallpapers = [
-  'fairy-tale',
-  'impellent',
-  'orchid',
-  'petals',
-  'petals-soft',
-  'soft-neon',
-  'vanilla',
+  'FairyTale',
+  'Impellent',
+  'Orchid',
+  'Petals',
+  'PetalsSoft',
+  'SoftNeon',
+  'Vanilla',
 ]
 
 foreach wp : wallpapers
